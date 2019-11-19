@@ -1,6 +1,8 @@
 {
-  "name": "test",
+  "name": "js-vtf1qz",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
