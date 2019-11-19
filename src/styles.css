@@ -9,3 +9,13 @@ h1 {
   /*This is an example of how to use CSS. All h1 elements will now have a bottom border*/
   border-bottom: 1px solid;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(150, 139, 139);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
