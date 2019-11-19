@@ -1,8 +1,10 @@
 {
-  "name": "js-vtf1qz",
+  "name": "webdevtrainingiotbosch",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
     "jquery": "^3.4.1"
-  }
+  },
+  "keywords": [],
+  "description": "Simple API call to Weather. Designing frontend as task"
 }
