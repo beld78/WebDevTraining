@@ -9,6 +9,8 @@ What is included?
 
 
 Resources for HTML, CSS and JavaScript:
+
+
 | Used for   | Link |
 | ------------- | ------------- |
 | General HTML CSS reference  | https://www.w3schools.com/html/default.asp   |
