@@ -9,13 +9,6 @@ What is included?
 
 
 Resources for HTML, CSS and JavaScript:
-| Used for                      | Link                                                    |
-|-------------------------------|---------------------------------------------------------|
-| General HTML CSS reference    | https://www.w3schools.com/html/default.asp              |
-| Quick HTML CSS JS Cheat sheet | https://htmlcheatsheet.com/js/                          |
-| Flexbox cheat sheet           | https://css-tricks.com/snippets/css/a-guide-to-flexbox/ |
-
-
 | Used for   | Link |
 | ------------- | ------------- |
 | General HTML CSS reference  | https://www.w3schools.com/html/default.asp   |
