@@ -1,9 +1,17 @@
+// this is to remove problem messages regarding the $ import from jQuery
+/* global $ */
 import "./styles.css";
 //add jQuery to this file
 var script = document.createElement("script");
 script.src = "https://code.jquery.com/jquery-3.4.1.min.js";
 script.type = "text/javascript";
 document.getElementsByTagName("head")[0].appendChild(script);
+
+//add fontawesome to this file
+var scriptFA = document.createElement("script");
+scriptFA.src = "https://kit.fontawesome.com/6c6f98601d.js";
+scriptFA.crossOrigin = "anonymous";
+document.getElementsByTagName("head")[0].appendChild(scriptFA);
 
 //this function will be executed when the button is clicked
 function getWeatherData() {
@@ -25,6 +33,12 @@ function getWeatherData() {
       var degree = (data.main.temp - 273.15).toFixed(2);
       //use jQuery to change the text from the element with id=hello
       $("#hello").text("It is " + degree + " °C right now in " + city);
+      //use jQuery to add icon to info container
+      if (!$("#icon").length) {
+        $("#infoContainer").append('<i id="icon" class="fas fa-sun"></i>');
+      } else {
+        // don't do anything if icon already exists
+      }
     }
   });
 }
