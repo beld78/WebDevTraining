@@ -7,7 +7,7 @@ What is included?
 - Naked frontend to be designed
 - Roboto Google Font
 
-
+1
 Resources for HTML, CSS and JavaScript:
 
 
