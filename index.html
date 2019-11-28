@@ -7,16 +7,17 @@
 	
 	<!--
 	This is how you would normally add the external libraries but it doesn't work in this environment
-	<script src="jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" type="text/javascript"></script>
 	<script src="https://kit.fontawesome.com/6c6f98601d.js" crossorigin="anonymous"></script>
 	-->
+	<script src="src/index.js"></script>
 </head>
 
 <body>
 	<input type="text" id="city" placeholder="Enter city name"></input>
 	<label for="city">City</label>
 	<!--This is a HTML comment.-->
-	<!--We do not pass the city to our function, we retrieve the value through JavaScript-->
+	<!--The button functionality is implemented through JavaScript-->
 	<button id="weatherbutton">Get weather</button>
 	<div id="infoContainer">
 			<h1 id="hello">Hello!</h1> 
@@ -29,7 +30,13 @@
 	https://www.flaticon.com/packs/weather-set-2 
 	-->
 	<footer> 
-		<div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+		<div>Icons made by 
+			<a href="https://www.flaticon.com/authors/smashicons" 
+			title="Smashicons">Smashicons</a> 
+			from 
+			<a href="https://www.flaticon.com/" 
+			title="Flaticon">www.flaticon.com</a>
+		</div>
 	</footer>
 </body>
 
