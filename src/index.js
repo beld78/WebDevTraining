@@ -1,6 +1,6 @@
 // this is to remove problem messages regarding the $ import from jQuery
 /* global $ */
-import "./styles.css";
+//import "./styles.css";
 //add jQuery to this file
 var script = document.createElement("script");
 script.src = "https://code.jquery.com/jquery-3.4.1.min.js";
