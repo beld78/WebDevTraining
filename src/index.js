@@ -17,6 +17,7 @@ document.getElementsByTagName("head")[0].appendChild(scriptFA);
 function getWeatherData() {
   // get city name from input field via jQuery
   var city = $("#city").val();
+  console.log(city);
   //construct the URL for the HTTP request
   var requestURL =
     "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -43,7 +44,25 @@ function getWeatherData() {
   });
 }
 
+window.onload = function() {
+  this.console.log("TEST");
+};
+
 //get button reference to modify in JavaScript
 var button = document.getElementById("weatherbutton");
 //add function to the button
 button.addEventListener("click", getWeatherData);
+
+// Get the input field
+var input = document.getElementById("city");
+
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("weatherbutton").click();
+  }
+});

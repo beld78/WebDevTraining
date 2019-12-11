@@ -5,6 +5,15 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: gray;
+}
+
+input {
+  border: 2px solid black;
+  margin: 10 10 10 10 10;
+}
+
 h1 {
   /*This is an example of how to use CSS. All h1 elements will now have a bottom border*/
   border-bottom: 1px solid;
